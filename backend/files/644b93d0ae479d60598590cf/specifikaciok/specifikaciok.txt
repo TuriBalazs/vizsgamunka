@@ -1,0 +1,10 @@
+Típus			Fejhallgató
+Adatátvitel		Vezetékes
+Csatlakozás		3.5 mm Jack
+Min. frekvencia		20 Hz
+Max. frekvencia		20000 Hz
+Érzékenység		103 dB
+Névleges impedancia	220 Ohm
+Kábelhossz		200 cm
+Mikrofon		Van
+Hangerőszabályzó	Van

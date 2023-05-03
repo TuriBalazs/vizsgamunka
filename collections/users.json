@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6437b3fbbc231160c2652cfd"
+  },
+  "vnev": "Fekete",
+  "knev": "Fehér",
+  "email": "igen@igen.igen",
+  "password": "$2a$10$6twNKCP8wbcpOi6XnAOokuhtgrFRuuMMyi..auakPIqgoaqzUQXiK",
+  "phone": "+305893487",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6446341b0a83f3e5edb37982"
+  },
+  "vnev": "admin",
+  "knev": "admin",
+  "email": "admin@webshop.hu",
+  "password": "$2a$10$szOzlVNIWF3KqavKxUPtaOsxZElU.SjaCI1rSEUZsJm7hCUf1UcJq",
+  "phone": "+36303762415",
+  "admin": "igen",
+  "__v": 0
+}]

@@ -1,0 +1,7 @@
+Nyomtató típusa 			Lézer nyomtató
+Színes nyomtató				Igen
+Kétoldalas nyomtatás			Nincs
+CD/DVD nyomtatás 			Nincs
+Közvetlen nyomtatás (PictBridge) 	Nincs
+Wi-Fi Direct 				Nem
+Maximális papírméret			A4

@@ -1,0 +1,4 @@
+Szélesség	900 mm
+Mélység		400 mm
+Magasság	3 mm
+Csuklótámasz	Nincs

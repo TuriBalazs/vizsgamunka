@@ -1,0 +1,477 @@
+[{
+  "_id": {
+    "$oid": "6447a67ac10dc94f0959f03c"
+  },
+  "nev": "ASUS ROG STRIX SCOPE NX TKL HUN RGB mechanikus gamer billentyűzet 90MP00N6-BKHA00",
+  "leiras": "ROG Strix Scope NX TKL Deluxe vezetékes mechanikus RGB billentyűzet FPS játékokhoz: ROG NX kapcsolókkal, alumínium vázzal és Aura Sync megvilágítással.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 43990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f115620a91f831914ff"
+  },
+  "tisId": {
+    "$oid": "641d4e555620a91f831914e0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b6503708405625274ee87"
+  },
+  "nev": "BILL ASUS TUF Gaming K1 HU TUF GAMING K1",
+  "leiras": "ASUS TUF Gaming K1 RGB billentyűzet dedikált hangerőszabályzó gombbal, cseppállósággal, oldalsó fénysávval és Armoury Crate technológiával",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 22990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f115620a91f831914ff"
+  },
+  "tisId": {
+    "$oid": "641d4e555620a91f831914e0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b6721708405625274ee9a"
+  },
+  "nev": "Dell USB magyar multimédiás billentyűzet 580-17681",
+  "leiras": "Dell KB522 Business Multimedia Keyboard - Hungarian Vezetékes, magyar billentyűzet. 14 dedikált parancsgomb. Levehető csuklótámasz.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 11990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f2f5620a91f83191505"
+  },
+  "tisId": {
+    "$oid": "641d4e555620a91f831914e0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b74bb708405625274efc4"
+  },
+  "nev": "HP ENVY 7921E A4 színes tintasugaras multifunkciós nyomtató kék",
+  "leiras": "A HP ENVY Inspire 7921e All-in-One nyomtató otthoni használatra tervezett multifunkciós nyomtató (fénymásol és szkennel is), amellyel bármikor nyomtathatunk otthoni környezetben dokumentumokat vagy akár hétköznapi fényképeket.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 56990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f6512d938900ad01d4c"
+  },
+  "tisId": {
+    "$oid": "641d4e465620a91f831914dd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b768b708405625274f013"
+  },
+  "nev": "HP Color LaserJet CLJ150nw színes lézernyomtató (4ZB95A)",
+  "leiras": "Használja ki a nyomtató előnyeit, amely a világ legkisebb színes lézernyomtatója a saját kategóriájában. 1 Végezzen nyomtatási és beolvasási feladatokat, hozzon létre kiváló minőségű színes nyomatokat, és indítsa el a nyomtatást és beolvasást az okostelefonjáról.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 97090,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f6512d938900ad01d4c"
+  },
+  "tisId": {
+    "$oid": "641d4e465620a91f831914dd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b77f1708405625274f03a"
+  },
+  "nev": "Acer vezetékes USB optikai egér HP.EXPBG.008",
+  "leiras": "A Cestus 310 egér egy prémium alkatrészekből összerakott, minden elemében tökéletes gamer kiegészítő. Nem csak kezdőknek, kifejezetten profi játékosoknak is ajánljuk!",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 11789,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641c2401d67b7073e2d439ca"
+  },
+  "tisId": {
+    "$oid": "641d4d675620a91f831914d7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b7a10708405625274f122"
+  },
+  "nev": "Genius DX-110 USB fehér egér 31010116109",
+  "leiras": "Stílusos és kényelmes vezetékes egér 1000 DPI felbontással, jobb és bal kézre egyaránt alkalmas.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 1389,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f365620a91f83191508"
+  },
+  "tisId": {
+    "$oid": "641d4d675620a91f831914d7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b7eea708405625274f48e"
+  },
+  "nev": "Razer Naga Trinity RZ01-02410100-R3M1",
+  "leiras": "Ergonomikus kialakítás Kényelmes használat hosszú órákon keresztül! Az egér ergonomikus kialakítása kellemes fogásról gondoskodik. Állítható érzékenység Épp hogy csak megmozdítod az egeret, a mutató már rögtön a monitorod másik felén van? Az egeren könnyen lejjebb veheted az érzékenységet, így máris kellemesebb lesz használható. Programozható akciógombok Több, mint egy egyszerű egér! Programozható akciógombjainak hála több műveletet is ellát. Csak állítsd be melyek legyenek ezek, és használd!",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 42890,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4fc312d938900ad01d55"
+  },
+  "tisId": {
+    "$oid": "641d4d675620a91f831914d7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b8034708405625274f50f"
+  },
+  "nev": "LOGITECH G840 XL League of Legends kiadás 943-000544",
+  "leiras": "Fully dive into your favorite game and enjoy more space for mouse movement, advanced mouse control, plus the rubber base to keep your gear in place.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 16190,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f7a12d938900ad01d52"
+  },
+  "tisId": {
+    "$oid": "641d4e735620a91f831914e7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b8160708405625274f57a"
+  },
+  "nev": "Steelseries QCK + PUBG Miramar Edition gaming egérpad mintás 63808",
+  "leiras": "Ez az egérpad a legendás Qck mikroszövet felülettel rendelkezik, melyoptimalizálja az egér követési pontosságát mind az optikai, mind a lézerérzékelők számára.A tartós, 4 mm vastag, csúszásmentes gumi alapot úgy tervezték, hogy kiküszöbölje a nem kívánt mozgást és stabil platformot nyújtson játék közben. Akár alacsony érzékenységgel, akár nagy felbontással játszol, ez a kiváló minőségű szövetből és gumi alapból készült nagyméretű egérpad ideális társként áll majd melletted a harcban.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 3660,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4ffc12d938900ad01d61"
+  },
+  "tisId": {
+    "$oid": "641d4e735620a91f831914e7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b83d0708405625274f5e4"
+  },
+  "nev": "ASUS ROG Strix XG258Q Monitor",
+  "leiras": "ROG Strix XG258Q Gaming Monitor – 25 hüvelykes (24,5 hüvelyk nézhető terület) FHD (1920x1080), natív 240 Hz, 1 ms, G-SYNC Compatible, Adaptive-Sync(FreeSync™), Asus Aura RGB",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 181990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f115620a91f831914ff"
+  },
+  "tisId": {
+    "$oid": "641d4e8f5620a91f831914ea"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b84fb708405625274f64f"
+  },
+  "nev": "LG 24\" 24BK550Y-I FHD LED IPS pivot monitor 24BK550Y-I.AEU",
+  "leiras": "LG 24BK550Y Full HD monitor IPS kijelzővel",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 60693,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f7112d938900ad01d4f"
+  },
+  "tisId": {
+    "$oid": "641d4e8f5620a91f831914ea"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b85f1708405625274f6c2"
+  },
+  "nev": "Dell E2423H 23.8\" LED Monitor DP, VGA (1920x1080) DE2423H",
+  "leiras": "Széles betekintési szög: A Full HD felbontás tisztasága révén kiváló minőségben láthatja a munkát, a széles, 178°/178°-os betekintési szög pedig konzisztens nézetet kínál. Kristálytiszta kép: A lenyűgöző, 3000:1 kontrasztaránynak köszönhetően a fekete mélyebb, a fehér világosabb, a színek pedig élénkebbek lesznek.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 49990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f2f5620a91f83191505"
+  },
+  "tisId": {
+    "$oid": "641d4e8f5620a91f831914ea"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b9024ae479d6059858ff2"
+  },
+  "nev": "Hama \"uRage Soundz Essential 100\" gamer headset 186007",
+  "leiras": "Dinamikus, mikrofonos headset 3,5mmes jack csatlakozóval Sztereó fülhallgató Hangerőszabályzó és a mikrofon némító funkció a kábelbe integrálva Állítható fejpánt és mikrofonkar",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 7590,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f3f5620a91f8319150b"
+  },
+  "tisId": {
+    "$oid": "641d4e9d5620a91f831914ed"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b91c8ae479d6059859010"
+  },
+  "nev": "Trust Quasar jack headset 21661",
+  "leiras": "Kiváló minőségű fül fölé helyezhető mikrofonos fejhallgató, állítható, párnázott fejpánttal, valamint fülrésszel a maximális kényelem érdekében.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 3999,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d5388e5978ec5ef4220d4"
+  },
+  "tisId": {
+    "$oid": "641d4e9d5620a91f831914ed"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b93d0ae479d60598590cf"
+  },
+  "nev": "Redragon Ares Gaming Headset Black/Red H120",
+  "leiras": "Ennek a pille könnyű, vezetékes headsetnek a segítségével minden hangot minden irányból hallani fogsz. Akár az ellenséges tűz, akár az ellenfeled lépései, minden egyes részlet segít összpontosítani, hogy győzelmet arathass. Puha fülpárnáinak köszönhetően kivételes kényelmet biztosít játék közben.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 8368,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4fd512d938900ad01d58"
+  },
+  "tisId": {
+    "$oid": "641d4e9d5620a91f831914ed"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b94dbae479d605985916b"
+  },
+  "nev": "Hama 186017 \"uRage Xstr3am Essential\" asztali állványos gaming mikrofon",
+  "leiras": "Gam ing és streaming mikrofon, amely tökéletesen alkalmas podcastok, hangfelvételek, vlogok, zenei felvételek vagy streamingek felvételére.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 7949,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f3f5620a91f8319150b"
+  },
+  "tisId": {
+    "$oid": "641d4ec95620a91f831914f0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b964dae479d60598591b2"
+  },
+  "nev": "Logitech Rally Mic pod Black 989-000430",
+  "leiras": "A jó kinézet találkozik a remek hanggalA karcsú, lapos kialakításnak és a kiváló anyagoknak köszönhetően a Rally mikrofonegységek rendkívül tiszta, természetes és beszélgetéseket idéző hangot adnak ki.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 139560,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f7a12d938900ad01d52"
+  },
+  "tisId": {
+    "$oid": "641d4ec95620a91f831914f0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b984eae479d6059859201"
+  },
+  "nev": "RAZER Seiren Elite RZ19-02280100-R3M1",
+  "leiras": "A dinamikus mikrofont egyszerű kivitel jellemzi. Vékony és rugalmas membránból és mágneses mezőben lévő tekercsből készül. Az ilyen megoldás vitathatatlan előnye, hogy nagy ellenállást mutat a mechanikai sérülésekkel és az időjárási viszonyokkal szemben. Ennek köszönhetően a készülék otthon és kívül egyaránt használható. További előny a kiváló ár-minőség arány.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 56690,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4fc312d938900ad01d55"
+  },
+  "tisId": {
+    "$oid": "641d4ec95620a91f831914f0"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b9944ae479d605985923e"
+  },
+  "nev": "Genius SP-Q180 fekete-szürke USB hangszóró 31730026400",
+  "leiras": "Kiválóan illeszkedik számítógépe mellé. Élvezze a könnyed, rendezett környezet hatásait. Elég kicsi ahhoz, hogy mindenhova magával vigye. Egyszerű összeállítás USB plug and play, nincs szükség elemekre vagy tápkábelre. Egyszerű hozzáférés a hangerőszabályozóhoz.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 3189,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f365620a91f83191508"
+  },
+  "tisId": {
+    "$oid": "641d4ed35620a91f831914f3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b9a1bae479d605985927d"
+  },
+  "nev": "Logitech Z200 2.0 hangszóró White 980-000811",
+  "leiras": "Tegye élvezetesebbé a zenehallgatást és a filmnézést a teret betöltő hangzással és az állítható basszussal. Az egyszerű kezelőszervek mind elérhetők a jobb oldali hangszórón.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 14359,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f7a12d938900ad01d52"
+  },
+  "tisId": {
+    "$oid": "641d4ed35620a91f831914f3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b9beaae479d6059859306"
+  },
+  "nev": "Steelseries Arena 7 hangszóró 61543",
+  "leiras": "Speaker Drivers 2-way  Tweeter 0.75\"  Woofer 3\"  Subwoofer Driver 6.5\" Down-firing  System Full Range Response 35-20,000 Hz  Sensitivity 89 dB  Max SPL 100 dB  Driver Material Organic Fiber and Silk",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 101590,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4ffc12d938900ad01d61"
+  },
+  "tisId": {
+    "$oid": "641d4ed35620a91f831914f3"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba3a5ae479d60598593b0"
+  },
+  "nev": "Acer GP.OTH11.02M",
+  "leiras": "Az Acer QHD Conference Webcam nagyfelbontású kamera, ami videóhívásokon kívül Youtube videók készítésére és streamelésre is alkalmas. Az auto fókusz funkció gondoskodik a videó élességéről.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 7990,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641c2401d67b7073e2d439ca"
+  },
+  "tisId": {
+    "$oid": "641d4edc5620a91f831914f6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba493ae479d6059859409"
+  },
+  "nev": "Genius FaceCam 1000X (32200016100)",
+  "leiras": "Genius bemutatja legújabb HD minőségű webkameráját, FaceCam 1020-at. Nagyfelbontású 720p videóátvitelre képes, akár 30 képkockával másodpercenként. Különleges klip design. Driver sem szükséges a Windows 7, Mac és Linux rendszereken, és nagyszerű használható Skype, MSN, Yahoo Messenger és egyéb chat programokkal.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 6873,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f365620a91f83191508"
+  },
+  "tisId": {
+    "$oid": "641d4edc5620a91f831914f6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba560ae479d6059859504"
+  },
+  "nev": "HP 950 (4C9Q2AA#ABB)",
+  "leiras": "Video:4K, Mic, USB 2.0, Autófókusz Garancia: 12 hónap Gyártó: HP Videó felbontás: 4K Mikrofon: Igen Csatolófelület: USB 2.0 Fókusz: Autófókusz  Így is ismerheti: 950 4 C 9 Q 2 AA ABB, 9504C9Q2AAABB, 950 (4C9Q2AA# ABB)",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 49830,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4f6512d938900ad01d4c"
+  },
+  "tisId": {
+    "$oid": "641d4edc5620a91f831914f6"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba64cae479d60598595d9"
+  },
+  "nev": "Microsoft Xbox Vezeték Nélküli Controller + USB-C Kábel 1V8-00002",
+  "leiras": "Ismerd meg a vezeték nélküli Xbox-kontroller modernizált kialakítását, mívesen megmunkált felületekkel és kifinomult geometriával a még nagyobb kényelem érdekében a játékok során. Játssz vezeték nélkül, vagy használd a mellékelt 9'-es USB-C-kábelt vezetékes csatlakozáshoz. A hibrid irányválasztó és a ravaszok, az ütközők és a hátsó borítás texturált felülete révén mindig a célponton maradhatsz.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 21190,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d5390e5978ec5ef4220d7"
+  },
+  "tisId": {
+    "$oid": "641d4ee45620a91f831914f9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba714ae479d6059859686"
+  },
+  "nev": "RAZER Wolverine V2 - Black RZ06-03560100-R3M1",
+  "leiras": "A Wolverine V2 ergonómikus, L alakú fogantyúi természetes tartást biztosítanak, amely felülmúlja elődjét, míg a kontúrozott kialakítás és a csúszásgátló gumi markolatok gyors és pontos gomb interakciót tesznek lehetővé az egész napos játékhoz csúcsteljesítmény mellett.",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 37905,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4fc312d938900ad01d55"
+  },
+  "tisId": {
+    "$oid": "641d4ee45620a91f831914f9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644ba7caae479d605985970f"
+  },
+  "nev": "Spirit of Gamer Gamepad - PGX WIRED Green (USB, 1,8m kábel, Vibration, Xbox Series X/S/ONE és PC komp., fekete-zöld) SOG-WXB1",
+  "leiras": "Kompatibilitás: Xbox One, PC Home gombbal a konzol egyszerűbb kezelése érdekében USB csatlakozás Asszimetrikusan elrendezett analóg karok Rezgő erővisszacsatolás Állapotjelző LED",
+  "specifikaciok": "specifikaciok.txt",
+  "garancia": 2,
+  "ar": 12299,
+  "akcio": null,
+  "mraId": {
+    "$oid": "641d4ff312d938900ad01d5e"
+  },
+  "tisId": {
+    "$oid": "641d4ee45620a91f831914f9"
+  },
+  "__v": 0
+}]

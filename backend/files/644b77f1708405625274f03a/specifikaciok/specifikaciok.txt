@@ -1,0 +1,5 @@
+Egér típusa		Optikai
+Vezeték nélküli		Nem
+Egér csatlakoztatása	USB
+Érzékenység		4200 DPI
+Gombok száma		6 db

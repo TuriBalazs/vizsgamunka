@@ -1,0 +1,13 @@
+Típus				LED monitor
+Panel típusa			VA
+Ívelt kijelző			Nem
+3D monitor 			Nem
+Érintőképernyő			Nem
+Képátló				24 inch
+Képarány			16:9
+Felbontás			1920 x 1080
+Válaszidő 			5 ms
+Fényerő				250 cd/m2
+Statikus kontraszt 		3000:1
+Betekintési szög		178 °
+Képfrissítési frekvencia	60 Hz

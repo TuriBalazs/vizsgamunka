@@ -1,0 +1,2 @@
+USB csatlakozó	Van
+Vezeték nélküli	Nem

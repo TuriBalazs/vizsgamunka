@@ -1,0 +1,5 @@
+Típus 			2.0
+RMS teljesítmény 	6 W
+Frekvenciatartomány	150 - 20000 Hz
+Bluetooth		Nincs
+Távirányító		Nincs

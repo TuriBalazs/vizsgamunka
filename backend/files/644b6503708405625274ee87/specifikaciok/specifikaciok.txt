@@ -1,0 +1,6 @@
+Billentyűzet csatlakoztatása	USB
+Vezeték nélküli			Nem
+Multimedia billentyűzet 	Igen
+Háttérvilágítás			Van
+Mechanikus 			Nem
+Numerikus billentyűzet		Van

@@ -1,0 +1,9 @@
+Nyomtató típusa 			Tintasugaras nyomtató
+Színes nyomtató				Igen
+Szkenner / Fénymásoló 			Van
+Fax					Nincs
+Kétoldalas nyomtatás			Automata
+CD/DVD nyomtatás			Nincs
+Közvetlen nyomtatás (PictBridge) 	Nincs
+Wi-Fi Direct 				Nem
+Maximális papírméret			A4

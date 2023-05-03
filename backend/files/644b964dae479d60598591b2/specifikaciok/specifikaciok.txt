@@ -1,0 +1,7 @@
+Csatlakozás típusa	USB
+Érzékenység		30 dB
+Frekvenciatartomány	50 - 18000 Hz
+Állítható dőlésszög	Igen
+Bekapcsoló gomb		Van
+Némító gomb		Nincs
+Kábel hossza		2 m

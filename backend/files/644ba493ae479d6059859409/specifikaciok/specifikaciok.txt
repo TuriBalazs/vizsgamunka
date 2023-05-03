@@ -1,0 +1,5 @@
+Digitális zoom		Van
+Mikrofon		Van
+Maximális képfrissítés 	30 fps
+Videófelbontás		1280 x 720
+Tömeg			50 g

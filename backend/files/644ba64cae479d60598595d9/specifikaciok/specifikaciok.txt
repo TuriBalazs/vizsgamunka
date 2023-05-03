@@ -1,0 +1,4 @@
+Vezeték nélküli		Igen
+Vibrációs gamepad	Igen
+Analóg joystick		Van
+Kompatibilitás		PC, Xbox One

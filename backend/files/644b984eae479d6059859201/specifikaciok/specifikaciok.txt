@@ -1,0 +1,4 @@
+Csatlakozás típusa	USB
+Frekvenciatartomány	20Hz - 20kHz
+SPL max			120dB
+Tápfeszültség		USB

@@ -1,0 +1,5 @@
+Vezeték nélküli		Nem
+Vibrációs gamepad	Igen
+Analóg joystick		Van
+Kábel hosszúsága	2 m
+Kompatibilitás		PC, Xbox One

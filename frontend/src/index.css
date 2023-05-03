@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header {
+    background-image: url(./Images/Header.png);
+    background-repeat: no-repeat;
+}
+
+.bacolor {
+    background: linear-gradient(18deg, #00fbff 40%, #2e5db2, #2e5db2,#2e5db2, #2e5db2,#2e5db2, #2e5db2,#2e5db2, #2e5db2, #2e5db2 59.6%, black 1%, white 60%, black 60%, #9665eb 60.3%, #7c3aed 67%);
+}
+
+.dropdown:hover>.dropdown-content {
+    display: block;
+}

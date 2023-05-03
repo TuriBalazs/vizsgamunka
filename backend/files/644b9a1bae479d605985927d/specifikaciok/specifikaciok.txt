@@ -1,0 +1,5 @@
+Típus 			2.0
+RMS teljesítmény 	10 W
+Frekvenciatartomány	80 - 20000 Hz
+Bluetooth		Nincs
+Távirányító		Nincs

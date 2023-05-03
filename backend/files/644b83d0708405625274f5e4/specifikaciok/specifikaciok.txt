@@ -1,0 +1,14 @@
+Típus				LED monitor
+Panel típusa			TN
+Ívelt kijelző			Nem
+3D monitor 			Nem
+Érintőképernyő			Nem
+Képátló				24.5 inch
+Képarány			16:9
+Felbontás			1920 x 1080
+Válaszidő 			1 ms
+Fényerő				400 cd/m2
+Statikus kontraszt 		1000:1
+Dinamikus kontraszt		100000000:1
+Betekintési szög		170 °
+Képfrissítési frekvencia	240 Hz

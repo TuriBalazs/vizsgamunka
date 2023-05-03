@@ -1,0 +1,5 @@
+Típus 			2.1
+RMS teljesítmény 	10 W
+Frekvenciatartomány	35Hz-20kHz
+Bluetooth		Van
+Távirányító		Nincs
