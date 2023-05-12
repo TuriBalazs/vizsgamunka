@@ -3,8 +3,6 @@ const asyncHandler = require('express-async-handler');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
-const { ensureIndexes } = require('../models/User');
-const { use } = require('../routes/markakRoutes');
 
 const generateToken = (id) => {
     return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "1d" });

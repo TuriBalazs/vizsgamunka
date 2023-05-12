@@ -98,8 +98,35 @@ const termekFelvesz = asyncHandler(async (req, res) => {
 
 
 const getTermekek = asyncHandler(async (req, res) => {
-    const termekek = await Termekek.find({});
-    res.json(termekek);
+    const temp = await Termekek.find({});
+
+    let termekek1 = []
+    let termekek2 = []
+    let termekek3 = []
+
+    for (let i = 0; i < temp.length; i++) {
+        if (i < 10) {
+            termekek1.push(temp[i])
+        }
+        if (i >= 10 && i <20) {
+            termekek2.push(temp[i])
+        }
+        if (i >= 20) {
+            termekek3.push(temp[i])
+        }
+    }
+
+    let oldal = req.params.szam
+
+    if (oldal == 1) {
+        res.json(termekek1);
+    }
+    if (oldal == 2) {
+        res.json(termekek2);
+    }
+    if (oldal == 3) {
+        res.json(termekek3);
+    }
 });
 
 const getTermekByMarka = asyncHandler(async (req, res) => {

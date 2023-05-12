@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 const rendelesSchema=new mongoose.Schema({
     rendelesDatum:{
         type:Date,
-        date:Date()
+        default:Date()
     },
     vnev:{
         type:String,
