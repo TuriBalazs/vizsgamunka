@@ -18,14 +18,14 @@ const getImages = asyncHandler(async (req, res) => {
 });
 
 const getImagesByTermek = asyncHandler(async (req, res) => {
-
+    console.log(req.params.id)
     const images = await Kepek.find({ trkId: req.params.id });
-
+    console.log(images)
     if (!images) {
         throw new Error("Nincsenek feltöltött képek!")
     }
 
-    res.json({ path: "/files/" + images.trkId + "/", images: images });
+    res.json({ path: "/files/" + req.params.id + "/", images: images });
 
 });
 
