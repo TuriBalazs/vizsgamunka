@@ -10,7 +10,7 @@ export const UserProvider = ({ children }) => {
 
     useEffect(() => {
         if (token) {
-            fetch('http://10.0.20.7:8000/api/webshop/user', {
+            fetch('http://26.133.54.94:8000/api/webshop/user', {
                 method: 'GET',
                 headers: {
                     "Content-type": "application/json",

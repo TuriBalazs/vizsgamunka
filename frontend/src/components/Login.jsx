@@ -22,7 +22,7 @@ function Login() {
     const navigate = useNavigate();
     const { update } = useContext(UserContext);
     const kuldes = (formData, method) => {
-        fetch('http://10.0.20.7:8000/api/webshop/user/login', {
+        fetch('http://26.133.54.94:8000/api/webshop/user/login', {
             method: method,
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify(formData)
@@ -60,7 +60,7 @@ function Login() {
                             <input type="password" onChange={writeData} id="password" value={formData.password} required className="input input-bordered" />
                         </div>
                         <div className="form-control w-full max-w-xs">
-                            <button type="submit" className='btn btn-primary mx-10 my-4'>Küldés</button>
+                            <button type="submit" className='btn mx-10 my-4'>Küldés</button>
                         </div>
                     </form>
                 </div>

@@ -1,97 +1,51 @@
-import { useState } from 'react'
-import {toast} from 'react-toastify'
+import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react'
 
-function Termek() {
-    const [spec, setSpec] = useState([]);
-    const [miniImages, setMiniImages] = useState([]);
-    const [largeImages, setLargeImages] = useState([]);
-    const [nev,setNev]=useState("");
-    const [leiras,setLeiras]=useState("");
-    const [garancia,setGarancia]=useState("");
-    const [ar,setAr]=useState("");
-    const [akcio,setAkcio]=useState("");
-    const [marka,setMarka]=useState("");
-    const [tipus,setTipus]=useState("");
-    
-    const specChange =(e)=>{
-        setSpec([...spec, ...e.target.files]);
-    }
+function Termek({ termek }) {
+  const valami = useLocation();
+  const termekinfo = valami.state;
+  const [kepek, setKepek] = useState([]);
+  const [spec, setSpec] = useState([]);
 
-    const miniImageChange = (e) => {
-        setMiniImages([...miniImages, ...e.target.files]);
-    }
+  useEffect(() => {
+    fetch(`http://26.133.54.94:8000/api/webshop/kepek/termek/${termekinfo.termek._id}`)
+      .then(res => res.json())
+      .then(kep => setKepek(kep))
+      .catch(err => console.log(err));
+  }, [1])
 
-    const largeImageChange = (e) => {
-        setLargeImages([...largeImages, ...e.target.files]);
-    }
+  const change = (number) => {
+    const large = document.getElementById("large")
+    large.src = "http://26.133.54.94:8000" + kepek.path + "large/" + kepek.images[number].eredeti
+  }
 
-    const onSubmit = (e) => {
-        e.preventDefault();
-        const formData =new FormData();
-        formData.append("nev",nev)
-        formData.append("leiras",leiras)
-        formData.append("garancia",garancia)
-        formData.append("ar",ar)
-        formData.append("akcio",akcio)
-        formData.append("marka",marka)
-        formData.append("tipus",tipus)
-        
-        for(let i=0;i<spec.length;i++){
-            formData.append("specs",spec[i])
-        }
-        for(let i=0;i<miniImages.length;i++){
-            formData.append("mini"+i,miniImages[i])
-        }
-        for(let i=0;i<largeImages.length;i++){
-            formData.append("large"+i,largeImages[i])
-        }
-        kuldes(formData, 'POST');
-    }
-
-    const kuldes = (data, method) => {
-        fetch('http://10.0.28.8:8000/api/webshop/termekek/felvesz', {
-            method: method,
-            body: data
-        })
-            .then(res => res.json())
-            .then(valasz=>toast.success(valasz.message,{position: toast.POSITION.BOTTOM_RIGHT}))
-            .catch(err => toast.error(err, { position: toast.POSITION.BOTTOM_RIGHT }));
-    }
-
-    return (
-        <form onSubmit={onSubmit} className='mx-10 mt-5 grid grid-cols-2 gap-4 md:text-2xl sm:text-lg font-bold'>
-            <div className='text-end'>
-                <h1>Név: </h1>
-                <h1 className='mt-3'>Leírás: </h1>
-                <h1 className='mt-4'>Garancia: </h1>
-                <h1 className='mt-4'>Ár: </h1>
-                <h1 className='mt-4'>Akciós: </h1>
-                <h1 className='mt-4'>Márka: </h1>
-                <h1 className='mt-5'>Típus: </h1>
+  return (
+    kepek.length != 0 ?
+      <div className="p-10">
+        <div className="w-full lg:max-w-full lg:flex">
+          <div className="grid grid-cols-1 items-center">
+            <img onClick={() => change(0)} className="w-10 h-10 rounded-full mr-4" src={"http://26.133.54.94:8000" + kepek.path + "mini/" + kepek.images[0].belyeg} alt="Avatar of Writer" />
+            <img onClick={() => change(1)} className="w-10 h-10 rounded-full mr-4" src={"http://26.133.54.94:8000" + kepek.path + "mini/" + kepek.images[1].belyeg} alt="Avatar of Writer" />
+            <img onClick={() => change(2)} className="w-10 h-10 rounded-full mr-4" src={"http://26.133.54.94:8000" + kepek.path + "mini/" + kepek.images[2].belyeg} alt="Avatar of Writer" />
+            <img onClick={() => change(3)} className="w-10 h-10 rounded-full mr-4" src={"http://26.133.54.94:8000" + kepek.path + "mini/" + kepek.images[3].belyeg} alt="Avatar of Writer" />
+            <img onClick={() => change(4)} className="w-10 h-10 rounded-full mr-4" src={"http://26.133.54.94:8000" + kepek.path + "mini/" + kepek.images[4].belyeg} alt="Avatar of Writer" />
+          </div>
+          <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Mountain">
+            <img id='large' className='w-48 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400' src={"http://26.133.54.94:8000" + kepek.path + "large/" + kepek.images[0].eredeti} />
+          </div>
+          <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="mb-8">
+              <div className="text-gray-900 font-bold text-xl mb-2">{termekinfo.termek.nev}</div>
+              <p className="text-gray-700 text-base">{termekinfo.termek.specifikaciok}</p>
+              <p className="text-gray-700 text-base">{termekinfo.termek.garancia} Év garancia</p>
+              <p className="text-gray-700 text-base">{termekinfo.termek.ar} Ft</p>
+              <button type='button' className='btn'>kosárba tesz</button>
             </div>
-            <div className='mb-5'>
-                <input className='w-40 block md:text-lg' type="string" id="nev" onChange={(e)=>setNev(e.target.value)} value={nev} />
-                <input className='mt-5 w-40 block md:text-lg' type="string" id="leiras" onChange={(e)=>setLeiras(e.target.value)} value={leiras} />
-                <input className='mt-5 w-40 block md:text-lg' type="string" id="garancia" onChange={(e)=>setGarancia(e.target.value)} value={garancia} />
-                <input className='mt-5 w-40 block md:text-lg' type="number" id="ar" onChange={(e)=>setAr(e.target.value)} value={ar} />
-                <input className='mt-5 w-40 block md:text-lg' type="string" id="akcio" placeholder='alapértelmezetten nincs' onChange={(e)=>setAkcio(e.target.value)} value={akcio} />
-                <input className='my-5 w-40 block md:text-lg' type="string" id="marka" onChange={(e)=>setMarka(e.target.value)} value={marka} />
-                <input className='w-40 md:text-lg' type="string" id="tipus" onChange={(e)=>setTipus(e.target.value)} value={tipus} />
-            </div>
-            <div className='col-span-2 text-center'>
-                <input type="file" id='specs' onChange={specChange} className="file-input file-input-bordered w-full max-w-xs" required />
-            </div>
-            <div className='col-span-2 text-center'>
-                <input type="file" id='mini' onChange={miniImageChange} className="file-input file-input-bordered w-full max-w-xs" multiple required />
-            </div>
-            <div className='col-span-2 text-center'>
-                <input type="file" id='large' onChange={largeImageChange} className="file-input file-input-bordered w-full max-w-xs" multiple required />
-            </div>
-            <div className='col-span-2 text-center'>
-                <button type='submit' className='btn'>felvétel</button>
-            </div>
-        </form>
-    )
+          </div>
+        </div>
+      </div>
+      : <></>
+  )
 }
 
 export default Termek

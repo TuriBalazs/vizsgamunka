@@ -8,6 +8,8 @@ import Kosar from './components/Kosar';
 import { UserProvider } from './components/context/UserContext';
 import Profile from './components/Profile';
 import TermekFelvitel from './components/TermekFelvitel';
+import TermekModosit from './components/TermekModosit';
+import Termek from './components/Termek';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
             <Route path='/login' element={<Login />} />
             <Route path='/regist' element={<Regist />} />
             <Route path='/profile' element={<Profile />} />
+            <Route path='/termek' element={<Termek />} />
             <Route path='/termekfelvitel' element={<TermekFelvitel />} />
+            <Route path='/termekmodosit' element={<TermekModosit />} />
           </Routes>
         </UserProvider>
       </Router>

@@ -8,12 +8,12 @@ function Navbar() {
     const navigate = useNavigate();
     const token = sessionStorage.getItem('usertoken');
     const user = useContext(UserContext);
-
+    
     return (
-        <div className="navbar bg-navcolor border-b-2 border-fuchsia-300 rounded-b-lg">
+        <div className="navbar bg-navcolor border-b-2 border-fuchsia-300 rounded-b-lg text-black">
             <div className="text-center flex-1">
                 <ul>
-                    <Link to='/' className="btn btn-ghost w-24 text-base font-normal normal-case hover:font-bold hover:bg-fuchsia-300">Főoldal</Link>
+                    <Link to='/' className="btn btn-ghost w-24 text-base font-normal normal-case hover:font-bold hover:bg-fuchsia-300"><image src="Images/image.png"/></Link>
                 </ul>
                 <ul>
                     <Link to='/termekek' className="btn btn-ghost text-base font-normal normal-case hover:font-bold hover:bg-fuchsia-300">Termékek</Link>
@@ -28,11 +28,12 @@ function Navbar() {
 
                                 ? (<><li className="rounded-md hover:font-bold hover:bg-fuchsia-300 text-center"><p><Link to='/login' className="w-20 ">Belépés</Link></p></li>
                                     <li className="rounded-md hover:font-bold hover:bg-fuchsia-300 text-center"><p><Link to='/regist' className="w-24">Regisztráció</Link></p></li></>)
-                                : user.admin == "null"
+                                : user.userdata.admin == null
                                     ?
-                                    (<><li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><Link to='/profile'>Profil</Link></li>
-                                        <li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><a onClick={() => { logout(); navigate('/') }}>Logout</a></li></>)
-                                    : <><li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><Link to='/termek'>Termék</Link></li>
+                                    <><li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><Link to='/profile'>Profil</Link></li>
+                                        <li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><a onClick={() => { logout(); navigate('/') }}>Logout</a></li></>
+                                    : <><li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><Link to='/termekfelvitel'>Termék Felvitel</Link></li>
+                                    <li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><Link to='/termekmodosit'>Termék Modosítása</Link></li>
                                         <li className="rounded-md hover:font-bold hover:bg-fuchsia-300"><a onClick={() => { logout(); navigate('/') }}>Logout</a></li></>
                         }
                     </ul>

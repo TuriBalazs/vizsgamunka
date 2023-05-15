@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "alpinejs": "^3.12.0",
     "babel-plugin-macros": "^3.1.0",
     "daisyui": "^2.47.0",
     "flowbite": "^1.6.5",
